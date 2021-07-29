@@ -21,7 +21,7 @@ function Photowebsite (){
           <Modal.Title>Link to wandering-light-photography website</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-        <p> Here is a link to an ongoing project website for <a href="http://wandering-light-photography.herokuapp.com/" target="_blank" rel="noreferred">my wife's photography. </a></p></Modal.Body>
+        <p> Here is a link to an ongoing project website for <a href="http://wandering-light-photography.herokuapp.com/" target="_blank" rel="noreferrer">my wife's photography. </a></p></Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
