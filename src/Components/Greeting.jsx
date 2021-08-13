@@ -25,8 +25,8 @@ if (time < 12){
 // removed style={customStyle} from h2 and commented out the above lines in if/else
 return <div>
 
-<h2 className ="greeting" >
-{hello}</h2>
+<h3 className ="greeting" style={{color:"white"}} >
+{hello}</h3>
 </div>
 }
 

@@ -6,13 +6,13 @@ import Image from 'react-bootstrap/Image';
 
 function Resume() {
     return (
-        <div className="story">
+        <div className="sites">
    <Container>    
-         <Card border="light">
+         <Card border="0" style={{backgroundColor: '#FFF'}} >
   <Image
-    className="bottom-cards" variant="top"  
-    src="https://s6.gifyu.com/images/Lee-Resume-Website-snippetb5bb853442978f73.png"
-    alt="Screen Grab Lee Sampson Resume" fluid
+    className="bottom-cards" 
+    src="https://s6.gifyu.com/images/resume-100.webp"
+    alt="Screen Grab Lee Sampson Resume"
   />
   <Card.Body>
     <Card.Title>Lee Sampson CV</Card.Title>

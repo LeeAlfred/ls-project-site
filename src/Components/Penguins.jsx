@@ -1,17 +1,17 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
-import Container from 'react-bootstrap/Container';
+
 import Image from 'react-bootstrap/Image'
 
 function Penguins() {
     return (
-        <div className="story">
-   <Container fluid>    
-         <Card border="light">
+        <div className="sites">
+   
+         <Card border="0" style={{backgroundColor: '#FFF'}}>
   <Image
-    className="bottom-cards" variant="top"
-    src="https://s6.gifyu.com/images/Penguins-website-snippetfcde1d2d7fdf2c43.png"
-    alt="Penguin byLeeSampson Website Snippet" fluid
+    className="bottom-cards" 
+    src="https://s6.gifyu.com/images/penguins100.webp"
+    alt="Penguin byLeeSampson Website Snippet" 
   />
   <Card.Body>
     <Card.Title>Penguins byLeeSampson Website</Card.Title>
@@ -19,7 +19,7 @@ function Penguins() {
 
   </Card.Body>
 </Card>
-</Container> 
+
         </div>
     )
 }

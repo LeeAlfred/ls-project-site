@@ -7,11 +7,12 @@ function Story() {
     return (
         <div className="intro">
    <Container fluid>    
-         <Card border="light">
+         <Card border="0" className="intro"
+         style={{backgroundColor: "#FFF"}}>
   
   <Card.Body>
     <Card.Title> My Journey</Card.Title>
-    <Card.Text>
+    <Card.Text >
     <p>
     I started studying Web Dev remotely through Udemy in October 2020.
     </p>

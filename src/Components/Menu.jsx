@@ -11,12 +11,11 @@ function Menu() {
 
 return (
     <div>
-<Navbar fixed= "top" bg="dark" variant="dark" expand="lg">
+<Navbar fixed= "top" style={{backgroundColor:"#C3BA85"}}  expand="lg">
 <Navbar.Brand href="#home">
-  Lee Sampson Projects
 </Navbar.Brand> 
  <Navbar.Toggle />
- <Navbar.Collapse>
+ <Navbar.Collapse className="justify-content-end">
   <Navbar.Text>   
     <Contact />
   </Navbar.Text>

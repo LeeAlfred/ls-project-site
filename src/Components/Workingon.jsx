@@ -1,13 +1,12 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Container from 'react-bootstrap/Container';
 
 
 function Workingon() {
     return (
-<div className="intro">
-   <Container fluid>    
-     <Card border="light">
+<div className="working">
+   
+     <Card border="0" style={{backgroundColor: "#FEFFE2"}}>
       <Card.Body>
        <Card.Title>Working on</Card.Title>
          <Card.Text>
@@ -19,7 +18,7 @@ function Workingon() {
         </Card.Text>
       </Card.Body>
      </Card>
-   </Container> 
+
 </div>
     )
 }

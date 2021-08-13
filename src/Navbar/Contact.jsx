@@ -22,7 +22,8 @@ function Contact (){
         </Modal.Header>
         <Modal.Body>
         <p>The best way to get in touch and to learn a bit more about me is on <a href="https://www.linkedin.com/in/lee-sampson-831a6614a/" target="_blank" rel="noreferrer">my Linkedin Page</a></p>
-        <p>Here is my<a href="https://github.com/LeeAlfred" target="_blank" rel="noreferrer">github</a> profile</p>
+        <p>Here is my <a href="https://github.com/LeeAlfred" target="_blank" rel="noreferrer">LeeAlfred Github</a> profile</p>
+        <p>I always welcome an email to: <br/> emailme@leesampson.co.nz</p>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>

@@ -1,38 +1,11 @@
 .App {
   text-align: center;
   font-family: 'Rubik', sans-serif;
-  margin-top: 20px;
-  
 }
 
 body {
-  background-color: #eee;
-  padding: 0 16px;
-  font-family: 'Rubik', sans-serif;
-  
-  
-}
-
-.story {
-  text-align: left;
-  background-color:  #fff;
-  padding: 16px 16px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  margin: 10px 0;
-  
-  
-  }
-
-.intro {
-  text-align: left;
-  padding: 16px 16px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  margin: 10px 0;
- 
-}
-
-.container {
-background-color: #fff;
+  background-color: #fff;
+  font-family: 'Rubik', sans-serif;  
 }
 
 .navbar{
@@ -40,18 +13,87 @@ background-color: #fff;
   display: flex;
 }
 
-.heading {
-
-  padding: 75px 20px 20px 20px;
-  width: 100%;
-  text-align: left;
-
+.p{
+  color: black;
 }
+
+.heading {
+  text-align: center;
+  margin:  100px 0 16px 16px;
+  padding: 10px;
+  color: black;
+  border: solid #FFF 2px;
+  border-radius: 5px;
+ }
+
+ .heading-picture{
+  margin:  100px 0 16px 16px;
+  padding: 10px;
+  max-height: 600px;
+ }
+
+
 
 .button{
   margin-left: 10px;
   margin-bottom: 5px;
   width: 170px;
-  
+  }
+
+.intro {
+  margin-top: 24px;;
+  text-align: left;
+  background-color: #FFF;
+  border: solid #C3BA85 2px;
+  border-radius: 5px;
 }
 
+.story-picture{
+  margin-top: 24px;
+  margin-bottom: 24px;
+  max-height: 400px;
+}
+
+.sites {
+
+  text-align: left;
+  background-color: #FFF;
+  padding: 16px 16px;
+  margin: 10px 0;
+
+}
+.bottom-cards{
+  max-width: 100px;
+  max-height: 100px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  margin-left: 16px;
+  border: solid #C3BA85 2px;
+  border-radius: 5px;
+}
+
+.studies{
+  text-align: right;
+  background-color:"#FEFFE2";
+  
+  max-width: 500px;
+  float: right;
+  border: solid #C3BA85 2px;
+  border-radius: 5px;;
+
+}
+
+.working{
+  text-align: left;
+  background-color: #FFF;
+  max-width: 500px;
+  border: solid #C3BA85 2px;
+  border-radius: 5px;
+  margin-bottom: 24px;
+
+}
+
+.footer {
+  background-color: #C3BA85;
+  padding: 50px;;
+  color: #FFF;
+}

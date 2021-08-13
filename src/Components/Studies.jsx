@@ -1,15 +1,13 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Container from 'react-bootstrap/Container';
 
 
 function Studies() {
     return (
-        <div className="intro">
-   <Container fluid>    
-         <Card border="light">
-  
-  <Card.Body>
+     <div className="studies">
+     
+    <Card border="0" style ={{backgroundColor: "#FEFFE2"}}>
+    <Card.Body>
     <Card.Title>Courses Completed</Card.Title>
     <Card.Text>
     <p>
@@ -30,7 +28,7 @@ function Studies() {
     </Card.Text>
   </Card.Body>
 </Card>
-</Container> 
+
         </div>
     )
 }

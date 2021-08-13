@@ -8,7 +8,7 @@ function Footer() {
     const year =date.getFullYear();
 
     return (
-    <div className="col-heading">
+    <div className="footer">
 <footer><p>Copyright byLeeSampson ⓒ{year}</p></footer>
     </div>)
 
